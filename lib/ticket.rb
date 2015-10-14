@@ -1,5 +1,5 @@
 
-#function that asking the age of a person
+#function that asking the age of a person sf
 def ask_age()
   puts "Hur gammal är du?"
   return gets.chomp.to_i
