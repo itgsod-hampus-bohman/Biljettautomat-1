@@ -1,10 +1,11 @@
 
-#function that asking the age of a person sf
+#function that asking the age of a person 
 def ask_age()
   puts "Hur gammal är du?"
   return gets.chomp.to_i
 end
 
+#
 def ticket_price(age)
   if (age < 18)
     return "10 kr"
@@ -14,4 +15,4 @@ def ticket_price(age)
   return "20 kr"
 end
 
-#puts ticket_price(ask_age)
+ #puts ticket_price(ask_age)
