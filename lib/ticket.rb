@@ -15,4 +15,4 @@ def ticket_price(age)
   return "20 kr"
 end
 
- #puts ticket_price(ask_age)
+puts ticket_price(ask_age)
