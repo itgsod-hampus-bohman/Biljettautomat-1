@@ -1,7 +1,7 @@
 
-#function that asking the age of a person 
+#function that asking the age of a person
 def ask_age()
-  puts "Hur gammal är du?"
+  puts "Enter your age"
   return gets.chomp.to_i
 end
 
